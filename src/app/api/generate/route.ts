@@ -23,7 +23,7 @@ export async function POST(req: NextRequest) {
 
     // 4. Extract Text using pdf2json (The Stable Way)
     const resumeText = await new Promise<string>((resolve, reject) => {
-      const pdfParser = new PDFParser(null, 1); // The '1' tells it to parse as text
+      const pdfParser = new PDFParser(null, true); // The '1' tells it to parse as text
 
       pdfParser.on("pdfParser_dataError", (errData: any) => {
         console.error(errData.parserError);
