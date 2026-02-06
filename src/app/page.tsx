@@ -51,7 +51,7 @@ export default function Home() {
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">
               AI Cover Letter Gen
             </span>
-            <span className="ml-2 text-4xl">🚀</span>
+            <span className="ml-2 text-4xl">🪶</span>
           </h1>
 
           <form onSubmit={handleSubmit} className="space-y-6">
