@@ -1,5 +1,10 @@
 #  AI Cover Letter Generator
 
+# Live URL : https://prodesk-it-4th-abes.vercel.app/
+
+# Screenshot : <img width="1918" height="964" alt="Screenshot 2026-02-06 154149" src="https://github.com/user-attachments/assets/8be99bc6-148f-4bd9-9aaf-7c00ea4b8019" />
+
+
 > A Next.js SaaS application that uses Google Gemini AI to generate personalized, professional cover letters by analyzing your PDF resume and a specific job description.
 
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
@@ -34,4 +39,9 @@ Follow these steps to set up the project locally.
 ### 1. Prerequisites
 * Node.js (v18 or higher)
 * A Google AI Studio API Key (Free)
+
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/your-username/ai-cover-letter.git](https://github.com/your-username/ai-cover-letter.git)
+cd ai-cover-letter
 
