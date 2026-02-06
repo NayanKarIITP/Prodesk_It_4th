@@ -1,6 +1,4 @@
-# Prompt Engineering Strategy
-
-This project uses a **"Context-Injection"** strategy. Instead of relying on the AI to guess the context, we programmatically inject structured data (Resume & Job Description) into a strict logic template.
+# Prompt Engineering:
 
 ## The Formula: 60% Human / 40% AI
 
